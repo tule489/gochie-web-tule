@@ -50,12 +50,7 @@ const Profile = () => {
         <Layout className="wrapper">
           <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
             <Col>
-              <Sider
-                breakpoint="lg"
-                collapsedWidth="0"
-                trigger={null}
-                collapsible
-              >
+              <Sider breakpoint="lg" collapsedWidth="0">
                 <Menu>
                   <Menu.Item>
                     <IconProfile />
